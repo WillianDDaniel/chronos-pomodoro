@@ -1,21 +1,49 @@
-import { TimerIcon } from 'lucide-react';
-import { Heading } from './components/Heading';
-
 function App() {
   return (
     <>
-      <Heading>
-        My App
-        <button>
-          <TimerIcon />
-        </button>
-      </Heading>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-        accusantium? Reiciendis saepe repellendus esse, mollitia minima odio,
-        qui voluptatum dolorem maiores ad quam doloribus nesciunt repudiandae
-        aliquid ipsum illum. Eos!
-      </p>
+      <div className='container'>
+        <div className='content'>
+          <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
+            vel voluptatem distinctio rem atque nulla cumque et modi illum
+            repudiandae debitis deserunt totam aperiam repellendus, quidem
+            voluptatibus quis fugiat.
+          </section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
+            vel voluptatem distinctio rem atque nulla cumque et modi illum
+            repudiandae debitis deserunt totam aperiam repellendus, quidem
+            voluptatibus quis fugiat.
+          </section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
+            vel voluptatem distinctio rem atque nulla cumque et modi illum
+            repudiandae debitis deserunt totam aperiam repellendus, quidem
+            voluptatibus quis fugiat.
+          </section>
+        </div>
+      </div>
+
+      <div className='container'>
+        <div className='content'>
+          <section>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
+            vel voluptatem distinctio rem atque nulla cumque et modi illum
+            repudiandae debitis deserunt totam aperiam repellendus, quidem
+            voluptatibus quis fugiat.
+          </section>
+        </div>
+      </div>
     </>
   );
 }
