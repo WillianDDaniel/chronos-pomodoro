@@ -1,5 +1,5 @@
-import { Container } from "./components/Container/Container"
-import { Heading } from "./components/Heading/Heading";
+import { Container } from './components/Container';
+import { Heading } from './components/Heading';
 
 export default function App() {
   return (
@@ -9,21 +9,15 @@ export default function App() {
       </Container>
 
       <Container>
-        <section>
-          MENU
-        </section>
+        <section>MENU</section>
       </Container>
 
       <Container>
-        <section>
-          FORM
-        </section>
+        <section>FORM</section>
       </Container>
 
       <Container>
-        <section>
-          FOOTER
-        </section>
+        <section>FOOTER</section>
       </Container>
     </>
   );
