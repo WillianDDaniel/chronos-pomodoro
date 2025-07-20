@@ -1,49 +1,18 @@
+import { TimerIcon } from 'lucide-react';
+import { Heading } from './components/Heading';
+
 function App() {
   return (
     <>
-      <div className='container'>
-        <div className='content'>
-          <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
-            vel voluptatem distinctio rem atque nulla cumque et modi illum
-            repudiandae debitis deserunt totam aperiam repellendus, quidem
-            voluptatibus quis fugiat.
-          </section>
-        </div>
-      </div>
+      <Heading>
+        My App
+        <button>
+          <TimerIcon />
+        </button>
+      </Heading>
+      <p>
 
-      <div className='container'>
-        <div className='content'>
-          <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
-            vel voluptatem distinctio rem atque nulla cumque et modi illum
-            repudiandae debitis deserunt totam aperiam repellendus, quidem
-            voluptatibus quis fugiat.
-          </section>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='content'>
-          <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
-            vel voluptatem distinctio rem atque nulla cumque et modi illum
-            repudiandae debitis deserunt totam aperiam repellendus, quidem
-            voluptatibus quis fugiat.
-          </section>
-        </div>
-      </div>
-
-      <div className='container'>
-        <div className='content'>
-          <section>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio quas
-            vel voluptatem distinctio rem atque nulla cumque et modi illum
-            repudiandae debitis deserunt totam aperiam repellendus, quidem
-            voluptatibus quis fugiat.
-          </section>
-        </div>
-      </div>
+      </p>
     </>
   );
 }
